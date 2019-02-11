@@ -1,0 +1,20 @@
+.test-list {
+  width: 500px;
+  margin: 0 auto;
+}
+ol, ul {
+  list-style: none;
+}
+
+ul:before {
+  content:  "*";
+  position: relative;
+  left:     -5px;
+  top: 40px;
+}
+li {
+  padding-top: 5px;
+}
+ol li:first-child {
+  font-weight: bold;
+}
